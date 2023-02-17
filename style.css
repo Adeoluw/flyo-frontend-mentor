@@ -14,10 +14,10 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
-    padding-right: 100px;
+    padding: 0 50px;
     padding-top: 20px;
-
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav ul li{
@@ -41,6 +41,7 @@ nav img{
     justify-content: center;
     flex-direction: column;
     background-image: url(./images/bg-curvy-desktop.svg);
+    font-family: 'Open Sans', sans-serif;
     background-repeat: no-repeat;
     background-position:bottom;
     background-position-y: 300px;
