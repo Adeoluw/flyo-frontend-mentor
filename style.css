@@ -106,6 +106,7 @@ nav img{
     justify-content: center;
     row-gap: 20px;
     column-gap: 150px;
+    padding-bottom: 80px;
 }
 
 .benefit-img-con{
@@ -137,4 +138,16 @@ nav img{
 
 .how-it-works{
     display: flex;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
+
+.stay-productive-text{
+    padding-top: 90px;
+    color: white;
+    text-align:left;
+}
+
+
+
