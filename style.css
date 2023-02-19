@@ -137,17 +137,32 @@ nav img{
 }
 
 .how-it-works{
-    display: flex;
+    display: grid;
     padding-top: 20px;
-    display: flex;
+    grid-template-columns: auto auto;
     justify-content: center;
+    column-gap: 50px;
+    padding: 0 50px;
+    margin-left: 50px;
+}
+
+.stay-productive{
+    width: 50%;
+
 }
 
 .stay-productive-text{
     padding-top: 90px;
     color: white;
-    text-align:left;
+    width: 50%;
 }
 
+.stay-productive-text h2{
+    width: 265px;
+    padding-right:0.5px ;
+}
 
-
+.stay-productive-text p{
+    padding-top: 10px;
+    text-align: left;
+}
