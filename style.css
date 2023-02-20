@@ -47,8 +47,7 @@ nav img{
     background-position-y: 300px;
     padding-bottom: 150px;
     background-position-x: -420px;
-    background-size: cover;
-}
+    background-size: cover;}
 
 .hero-section h2, p{
     text-align: center;
@@ -64,6 +63,7 @@ nav img{
     display:flex;
     justify-content: center;
 }
+
 
 .hero-text{
     padding: 10px 450px;
@@ -144,11 +144,16 @@ nav img{
     column-gap: 50px;
     padding: 0 50px;
     margin-left: 50px;
+    
 }
 
 .stay-productive{
     width: 50%;
+    justify-content: flex-end;
+}
 
+.stay-productive img{
+    width: 550px;
 }
 
 .stay-productive-text{
@@ -165,4 +170,19 @@ nav img{
 .stay-productive-text p{
     padding-top: 10px;
     text-align: left;
+}
+
+.feedback-card{
+    border: 1px solid white;
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    width: 400px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
