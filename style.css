@@ -172,6 +172,10 @@ nav img{
     text-align: left;
 }
 
+.testimonials{
+    margin-top: 20px;
+}
+
 .feedback-card{
     border: 1px solid white;
     background-color: hsl(219, 30%, 18%);
@@ -179,7 +183,26 @@ nav img{
     width: 400px;
     height: 200px;
     margin-right: 20px;
+    padding: 20px;
 }
+
+.feedback-card p{
+    text-align: left;
+}
+
+.testimonial-info{
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.testimonial-img img{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
 
 .reviews{
     display: flex;
