@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: hsl(218, 28%, 13%)
+    background-color: hsl(218, 28%, 13%);
 }
 
 .intro{
@@ -174,6 +174,7 @@ nav img{
 
 .testimonials{
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .feedback-card{
@@ -208,7 +209,6 @@ nav img{
 }
 
 
-
 .reviews{
     display: flex;
     justify-content: center;
@@ -216,3 +216,19 @@ nav img{
     font-family: 'Open Sans', sans-serif;
 }
 
+
+.sign-up{
+    background: linear-gradient(to bottom,
+    hsl(218, 28%, 13%) 50%, 
+    hsl(216, 53%, 9%) 50% );
+    height: 250px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.lead-magnet{
+    background-color: hsl(217, 28%, 15%);
+    height: 200px;
+    width: 500px;
+}
