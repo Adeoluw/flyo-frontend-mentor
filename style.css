@@ -181,10 +181,9 @@ nav img{
     background-color: hsl(219, 30%, 18%);
     color: white;
     width: 400px;
-    height: 200px;
+    height: 220px;
     margin-right: 20px;
     padding: 35px;
-    box-shadow: ;
 }
 
 .feedback-card p{
@@ -199,7 +198,7 @@ nav img{
     height: 50px;
     border: 1px solid none;
     display: flex;
-    margin-top: 25px;
+    margin-top: 18px;
 }
 
 .testimonial-img img{
