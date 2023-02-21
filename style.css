@@ -177,23 +177,29 @@ nav img{
 }
 
 .feedback-card{
-    border: 1px solid white;
+    border: 1px solid none;
     background-color: hsl(219, 30%, 18%);
     color: white;
     width: 400px;
     height: 200px;
     margin-right: 20px;
-    padding: 20px;
+    padding: 35px;
+    box-shadow: ;
 }
 
 .feedback-card p{
     text-align: left;
+    line-height: 25px;
+    color: rgb(181, 178, 171);
+    font-size: 14px;
+
 }
 
 .testimonial-info{
-    height: 80px;
-    border: 1px solid black;
+    height: 50px;
+    border: 1px solid none;
     display: flex;
+    margin-top: 25px;
 }
 
 .testimonial-img img{
@@ -208,4 +214,6 @@ nav img{
     display: flex;
     justify-content: center;
     justify-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
+
