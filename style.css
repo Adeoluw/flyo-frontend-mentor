@@ -230,5 +230,44 @@ nav img{
 .lead-magnet{
     background-color: hsl(217, 28%, 15%);
     height: 200px;
-    width: 500px;
+    width: 750px;
+    padding: 20px;
+}
+
+.email-text h3{
+    text-align: center;
+    color: white;
+    line-height: 55px;
+}
+
+.email-text p{
+    font-size: 14px;
+    padding: 0 60px;
+}
+
+.email-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.email-form input{
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.email-form button{
+    width: 170px;
+    height: 30px;
+    background-color:  hsl(176, 68%, 64%);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+    
 }
