@@ -18,16 +18,8 @@
   </title>
   <link rel="stylesheet" href="style.css" />
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  
+  <script src="https://kit.fontawesome.com/5a1a9fe891.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -35,13 +27,13 @@
     <nav>
       <img src="./images/logo.svg" alt="" />
       <ul>
-        <li>Features</li>
-        <li>Team</li>
-        <li>Sign In</li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#teams">Team</a></li>
+        <li><a href="#sign-in">Sign In</a></li>
       </ul>
     </nav>
     <section class="hero-section">
-      <div class="nav-image">
+      <div class="hero-image">
         <img src="./images/illustration-intro.png" alt="" />
       </div>
       <div class="hero-text">
@@ -57,7 +49,7 @@
       </div>
     </section>
   </section>
-  <section class="benefits-container">
+  <section class="benefits-container" id="features">
     <div class="benefit">
       <div class="benefit-img-con">
         <img src="./images/icon-access-anywhere.svg" alt="">
@@ -69,7 +61,7 @@
       </div>
     </div>
 
-    <div class="benefit">
+    <div class="benefit" id="features">
       <div class="benefit-img-con">
         <img src="./images/icon-security.svg" alt="">
       </div>
@@ -171,7 +163,7 @@
         <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
           questions, our support team would be happy to help you.</p>
       </div>
-      <div class="email-form">
+      <div class="email-form" id="sign-in">
         <input type="email" placeholder="e.g yourname@gmail.com">
         <button>Get Started For Free</button>
       </div>
@@ -210,9 +202,9 @@
         </div>
   
         <div class="social">
+          <i class="fa-brands fa-square-facebook"></i>
           <i class="fa fa-instagram" aria-hidden="true"></i>
-          <i></i>
-          <i></i>
+          <i class="fa-brands fa-linkedin"></i>
         </div>
   
       </div>
