@@ -73,7 +73,7 @@ nav img{
     height: 300px;
 }
 
-.nav-image{
+.hero-image{
     display:flex;
     justify-content: center;
 }
@@ -161,10 +161,10 @@ nav img{
     
 }
 
-.stay-productive{
+/* .stay-productive{
     width: 50%;
     justify-content: flex-end;
-}
+} */
 
 .stay-productive img{
     width: 550px;
@@ -189,6 +189,8 @@ nav img{
 .testimonials{
     margin-top: 20px;
     margin-bottom: 40px;
+    background-image: url("./images/bg-quotes.png");
+    background-repeat: no-repeat;
 }
 
 .feedback-card{
@@ -397,5 +399,126 @@ footer img{
             padding: 0 20px;
             text-align: center;
         }
+
+        .benefits-container{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 80px;
+            flex-direction: column;
+            margin-left: 58px;
+        }
+
+        .how-it-works{
+            display: flex;
+            padding-top: 20px;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+
+        .stay-productive img{
+            width: 312px;
+            margin-left: -21px;
+        }
+
+        .stay-productive{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .stay-productive-text{
+            padding-top: 90px;
+            width: 100%;
+            color: white;
+        }
+        
+        .stay-productive-text h2{
+            padding:0px ;
+        }
+        
+        .stay-productive-text p{
+            padding-top: 10px;
+            text-align: left;
+            
+        }
+
+        .testimonials{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            max-width: 100%;
+        }
+
+        .reviews{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            font-family: 'Open Sans', sans-serif;
+            flex-direction: column;
+            width: 80%;
+        }
+
+        .feedback-card{
+            border: 1px solid none;
+            background-color: hsl(219, 30%, 18%);
+            color: white;
+            width: 320px;
+            height: 220px;
+            padding: 35px;
+            margin-top: 25px;
+        }
+
+        .lead-magnet{
+            background-color: hsl(217, 28%, 15%);
+            height: 274px;
+            width: 386px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .email-text h3{
+            text-align: center;
+            color: white;
+            line-height: 55px;
+        }
+        
+        .email-text p{
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        .email-form{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        
+        .email-form input{
+            width: 265px;
+            height: 30px;
+            border-radius: 30px;
+            outline: none;
+            border: none;
+            padding-left: 10px;
+            margin-left: 40px;
+        }
+        
+        .email-form button{
+            width: 265px;
+            height: 30px;
+            background-color:  hsl(176, 68%, 64%);
+            border: none;
+            border-radius: 30px;
+            color: white;
+            margin-left: 40px;
+            margin-top: 5px;
+            font-size: 14px;
+            
+        }
 }
+
 
