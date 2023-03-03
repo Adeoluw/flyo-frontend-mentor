@@ -469,6 +469,10 @@ footer img{
             margin-top: 25px;
         }
 
+        .sign-up{
+            margin-top: 120px;
+        }
+
         .lead-magnet{
             background-color: hsl(217, 28%, 15%);
             height: 274px;
@@ -518,6 +522,83 @@ footer img{
             margin-top: 5px;
             font-size: 14px;
             
+        }
+
+        .footer-sections{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+
+        /* continue from here */
+        footer{
+            height: auto;
+            background-color: hsl(216, 53%, 9%);
+            color: white;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .footer-sections-container{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .footer-sections{
+            display: flex;
+            justify-content: center;
+            width: 410px;
+            flex-direction: column;
+        }
+        
+        .footer-sections address{
+            width: 100%;
+            margin-right: 30px;
+            text-align: left;
+            padding: 20px 50px;
+        }
+
+        .contact{
+            text-align: left;
+            padding-right: 184px;
+        }
+
+        .contact p{
+            margin-top: 10px;
+        }
+        
+        .footer-img{
+            display: flex;
+            justify-content: center;
+        }
+        
+        footer img{
+            height: 30px;
+            width: 100px;
+            margin-left: 50px;   
+        }
+        
+        .footer-nav ul{
+            list-style-type: none;
+            line-height: 30px;
+            padding: 20px;
+        }
+        
+        .footer-nav2 ul{
+            list-style-type: none;
+            line-height: 30px;
+            padding: 20px;
+        }
+        
+        .social{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .social i{
+            margin-right: 10px;
         }
 }
 
