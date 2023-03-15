@@ -408,6 +408,15 @@ footer img{
             /* margin-left: 58px; */
         }
 
+        .benefit{
+            padding: 30px 0;
+            width: auto;
+        }
+
+        .benefit-text-con p{
+            padding: 0 40px;
+        }
+
         .how-it-works{
             display: flex;
             padding-top: 20px;
