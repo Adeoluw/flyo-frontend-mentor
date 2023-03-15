@@ -405,7 +405,7 @@ footer img{
             justify-content: center;
             padding-bottom: 80px;
             flex-direction: column;
-            margin-left: 58px;
+            /* margin-left: 58px; */
         }
 
         .how-it-works{
