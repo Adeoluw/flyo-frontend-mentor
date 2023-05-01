@@ -230,6 +230,7 @@ nav img{
     justify-content: center;
     justify-items: center;
     font-family: 'Open Sans', sans-serif;
+    margin-left: 18px;
 }
 
 
@@ -343,7 +344,7 @@ footer img{
 }
 
 
-@media only screen and (max-width: 413px){
+@media only screen and (max-width: 415px){
     nav{
         display: flex;
         justify-content: space-between;
@@ -456,7 +457,6 @@ footer img{
             display: flex;
             justify-content: center;
             padding: 10px;
-            max-width: 100%;
         }
 
         .reviews{
@@ -465,7 +465,6 @@ footer img{
             justify-items: center;
             font-family: 'Open Sans', sans-serif;
             flex-direction: column;
-            width: 80%;
         }
 
         .feedback-card{
@@ -612,3 +611,22 @@ footer img{
 }
 
 
+@media only screen and (min-width: 912px){
+    .hero-text{
+        padding: 10px 222px;
+    }
+
+    .stay-productive-text{
+        width: auto;
+    }
+
+    .how-it-works img{
+        width: 400px;
+    }
+
+    .feedback-card{
+        height: 270px;
+        width: 260px;
+    }
+    
+}
