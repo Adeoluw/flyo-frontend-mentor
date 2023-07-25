@@ -80,7 +80,7 @@ nav img{
 
 
 .hero-text{
-    padding: 10px 450px;
+    padding: 10px 0px;
 }
 
 .hero-text p{
@@ -151,16 +151,18 @@ nav img{
 }
 
 .how-it-works{
-    display: grid;
+    display: flex;
     padding-top: 20px;
-    grid-template-columns: auto auto;
+    flex-wrap: wrap;
+    padding-inline: 35px;
     justify-content: center;
-    column-gap: 50px;
-    padding: 0 50px;
-    margin-left: 50px;
-    
+    margin-block: auto;
 }
 
+
+.illustration-img img{
+    width: 100%;
+}
 /* .stay-productive{
     width: 50%;
     justify-content: flex-end;
@@ -173,6 +175,7 @@ nav img{
 .stay-productive-text{
     padding-top: 90px;
     color: white;
+    padding-inline-start: 30px;
     width: 50%;
 }
 
@@ -197,8 +200,8 @@ nav img{
     border: 1px solid none;
     background-color: hsl(219, 30%, 18%);
     color: white;
-    width: 400px;
-    height: 220px;
+    width: 30%;
+    height: 100%;
     margin-right: 20px;
     padding: 35px;
 }
@@ -229,6 +232,7 @@ nav img{
     display: flex;
     justify-content: center;
     justify-items: center;
+    flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
     margin-left: 18px;
 }
@@ -343,8 +347,12 @@ footer img{
     margin-right: 10px;
 }
 
+.illustration-img{
+    width: 50%;
+}
 
-@media only screen and (max-width: 415px){
+
+@media only screen and (max-width: 770px){
     nav{
         display: flex;
         justify-content: space-between;
@@ -404,6 +412,7 @@ footer img{
         .benefits-container{
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
             padding-bottom: 80px;
             flex-direction: column;
             /* margin-left: 58px; */
@@ -420,9 +429,10 @@ footer img{
 
         .how-it-works{
             display: flex;
+            flex-wrap: wrap;
             padding-top: 20px;
             justify-content: center;
-            flex-direction: column;
+            margin-block: auto;
             
         }
 
@@ -440,6 +450,7 @@ footer img{
         .stay-productive-text{
             padding-top: 90px;
             width: 100%;
+            padding-inline-start: 30px;
             color: white;
         }
         
@@ -610,10 +621,10 @@ footer img{
         }
 }
 
-
+/* 
 @media only screen and (min-width: 912px){
     .hero-text{
-        padding: 10px 222px;
+        padding: 10px 0px;
     }
 
     .stay-productive-text{
@@ -629,4 +640,4 @@ footer img{
         width: 260px;
     }
     
-}
+} */
